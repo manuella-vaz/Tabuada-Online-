@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 255, 0.395), rgb(0, 0, 0));
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    margin-bottom: 2vh;
+    background-color: rgba(0, 0, 255, 0.327);
+    color: white;
+    font-size: 3.5vh;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(147, 147, 204, 0.327);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1.5vh;
+    font-size: 2vh;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabuada {
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 13.5vw;
+    flex-direction: column;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.327);
+    color: white;
+    text-align: center;
+    border-radius: 1vh;
+}
+
+.btn {
+    margin-top: 2.5vh;
+    width: 15.5vw;
+    height: 4vh;
+    border-radius: 1vh;
+    border: none;
+    color: white;
+    background-color: blue;
+}
+
+div.container p {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.title-p {
+    font-size: 3.5vh;
+    text-decoration: underline rgba(255, 0, 0, 0.37);
+}
+
+div.container input {
+    width: 15vw;
+}
+
+.buttons :hover {
+    opacity: 0.5;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vh;
+}
+
+@media (min-width:1440px) {
+    .container {
+        width: 20vw;
+    }
+    .buttons {
+        width: 15vw;
+        margin-left: 2vw;
+    }
+    .tabuada {
+        margin-left: 6vw;
+    }
+}
